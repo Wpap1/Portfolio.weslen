@@ -1,0 +1,241 @@
+:root{
+  --bg-primary:#000000;
+  --text-light:#FFFFFF;
+  --title-primary-color:#F5F5F7;
+  --subtitle-color:#6e6e73;
+  --action-color:#2997FF;
+  --clothes-main-color:#DED2B9;
+  --text-dark:#1D1D1F;
+
+}
+header{
+background-color:var(--bg-primary);
+color: var(--text-light);
+height: fit-content;
+opacity: 0.9;
+position: sticky;
+top: 0;
+z-index:1;
+padding: 10px  0;
+}
+
+
+header nav ul {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2rem;
+
+}
+
+header nav ul li {
+  min-width: fit-content ;
+  height: fit-content;
+  padding: 0 0.75rem;
+  font-size: 17px;
+  cursor: pointer;
+  list-style:none ;
+}
+main section{
+text-align: center;
+position: relative;
+}
+
+
+main section h1{
+  color: var(--title-primary-color);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;
+}
+
+main section h2{
+  color: var(--subtitle-color);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 0px;
+}
+
+main section a {
+color: var(--action-color);
+line-height: 1.8rem;
+font-size: 1.2;
+text-decoration: none;
+cursor: pointer;
+
+}
+main section a:hover{
+  text-decoration: underline;
+}
+
+main section .text-alignment{
+  position: absolute;
+  left: 35%;
+  transform: translateX(-50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.logo-section01{
+ width: 100%;
+height: auto;
+
+}
+ .photos-myself{
+ width: 100%;
+height: auto; 
+
+ }
+main .clothes-section > div{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+main .clothes-section > div:last-child{
+  bottom: 50px;
+}
+ 
+
+main .clothes-section > div:first-child{
+  top:105px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 60%;
+}
+main .clothes-section > div:first-child p {
+font-size: 2rem;
+font-weight: bold;
+line-height: 2.5rem;
+color:var(--clothes-main-color);
+letter-spacing: -0.6px;
+}
+main .clothes-section p {
+  color: var(--title-primary-color);
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.11px;
+}
+main .clothes-section spam{
+color: var(--text-light);
+font-size: 1.2rem;
+line-height: 1.5rem;
+display: block;
+letter-spacing: 0.23px;
+}
+
+
+main section{
+  text-align: center;
+  position: relative;
+  }
+  
+  
+  main .stock-section h2{
+    color: var(--text-dark);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+  }
+  
+  main .stock-section p{
+    color: var(--text-dark);
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2rem;
+    letter-spacing: 0.11px;
+    margin-bottom: 0px;
+  }
+
+  main .stock-section .link-text-alignment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+  }
+  
+  
+  main .stock-section .text-alignment{
+    position: absolute;
+    left: 35%;
+    transform: translateX(-50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    
+  }
+
+
+
+  main .shirt-section h2{
+    color: var(--text-light);
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+     
+  }
+  
+  main .shirt-section p{
+    color: var(--text-light);
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2rem;
+    letter-spacing: 0.11px;
+    margin-bottom: 0px;
+  }
+
+  main .shirt-section .link-text-alignment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+   
+  }
+  
+  
+  main .shirt-section .text-alignment{
+    position: absolute;
+    left: 20%;
+    transform: translateX(-50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .logo-section02{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: end;
+    justify-content: space-between;
+    margin-top: 24px
+  }
+  .bb{
+    width: 718px;
+    height: auto;
+    justify-content: space-between;    
+  }
+
+
+
+
+  
+  
